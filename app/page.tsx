@@ -21,9 +21,9 @@ export default function Page() {
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
           
             <strong>Welcome to Finance transaction Graph App</strong> This was developed by {' '}
-            <a href="/dashboard" className="text-blue-500">
+            <Link href="/dashboard" className="text-blue-500">
               Tonatiuh Garcia Juárez
-            </a>
+            </Link>
             , to accomplish with his Ammper Position job test.
           </p>
           <Link
